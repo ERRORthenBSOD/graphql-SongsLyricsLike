@@ -6,6 +6,7 @@ export default gql`mutation AddLyricToSong($content: String, $songId: ID) {
       lyrics {
         id
         content
+        likes
       }
     }
 }`;
